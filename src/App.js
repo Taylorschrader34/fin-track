@@ -17,8 +17,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="Reports/Monthly" element={<MonthlyReports />} />
-            <Route path="Reports/Yearly" element={<YearlyReports />} />
+            <Route path="Reports/Monthly" element={<Reports reportType={"monthly"}/>}/>
+            <Route path="Reports/Yearly" element={<Reports reportType={"yearly"}/>}/>
             <Route path="Reports" element={<Reports />} />
             <Route path="*" element={<NoPage />} />
           </Route>
