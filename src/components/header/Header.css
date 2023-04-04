@@ -99,17 +99,3 @@
 	font-weight: 600;
 	text-align: center;
 }
-
-@media screen and (max-width: 824px) {
-	.header .container {
-		padding: 10px 25px;
-	}
-
-	.header .navigation {
-		display: none;
-	}
-
-	.header .navicon {
-		display: block;
-	}
-}
